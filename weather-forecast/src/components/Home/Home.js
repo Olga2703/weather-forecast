@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import {Form} from 'reactstrap';
 import { map } from 'underscore';
+import { Link } from 'react-router-dom';
 
 import './Home.scss';
 
@@ -56,11 +57,11 @@ export default class Home extends Component {
                 <div className='Home-Body'>
                     <div className='SectionNavigation'>
                         {map(SECTIONS, ({ title, href, temperature, icon }) => (
-                            <a className='SectionNavigation-Item Section' href={href}>
+                            <Link className='SectionNavigation-Item Section' to={href}>
                                 <span className='Section-Title'>{title}</span>
                                 <span className='Section-Temperature'>{temperature}&deg;</span>
                                 <Icons name={icon} />                           
-                            </a>
+                            </Link>
                         ))}
                     </div>
                 </div>
