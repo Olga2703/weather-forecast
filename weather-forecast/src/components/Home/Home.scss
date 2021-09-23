@@ -1,0 +1,47 @@
+body {
+    font-family: 'Titillium Web', sans-serif
+  }
+
+.Home {
+    background: #161b30;   
+}
+
+.SectionNavigation-Item {
+    background: rgba(41, 46, 68, .6); ;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.Section-Title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 110.7%;
+}
+
+.Section-Temperature {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110.7%;
+    margin-bottom: -8px;
+}
+
+.Icon-Home-weather {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
