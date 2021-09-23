@@ -1,2 +1,65 @@
+.City {
+    background: linear-gradient(180deg, #5A607C 0%, #161B30 49.93%);
+}
 
+.Icon-vector-left {
+    width: 24px;
+    height: 24px;
+}
 
+.City-Title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110.7%;
+    color: #ffffff;
+}
+
+.City-SubTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110.7%;
+    color: #ffffff;
+}
+
+.City-Temperature {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 110.7%;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(180deg, #FFFFFF 11.65%, rgba(255, 255, 255, 0) 139.47%);
+}
+
+.Icon-City-weather {
+    width: 206px;
+    height: 206px;
+    margin-top: -40px;
+}
+
+.Icon-City-barometr {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.City-Pressure {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+}
+
+.City-Sunset {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110.7%;
+    color: #8A91AB;
+    margin-bottom: 70px;
+}

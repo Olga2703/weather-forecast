@@ -6486,6 +6486,19 @@ m1248 -12 c7 -7 12 -20 12 -29 0 -9 -7 -22 -15 -29 -8 -7 -25 -10 -39 -6 -13
         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1247 8.1893C11.1247 8.6713 11.5157 9.0643 11.9947 9.0643C12.4877 9.0643 12.8797 8.6713 12.8797 8.1893C12.8797 7.7073 12.4877 7.3143 12.0047 7.3143C11.5197 7.3143 11.1247 7.7073 11.1247 8.1893ZM12.8697 11.3621C12.8697 10.8801 12.4767 10.4871 11.9947 10.4871C11.5127 10.4871 11.1197 10.8801 11.1197 11.3621V15.7821C11.1197 16.2641 11.5127 16.6571 11.9947 16.6571C12.4767 16.6571 12.8697 16.2641 12.8697 15.7821V11.3621Z" fill="white"/>
     </symbol>
 
+        <symbol id="vector" viewBox="0 0 2 26">
+        <path d="M1 1V25" stroke="#494F68" stroke-width="2" stroke-linecap="round"/> 
+    </symbol>
+
+    <symbol id="vector-left" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.53505 0.515015L0.0500488 9.00001L8.53505 17.485L9.95005 16.071L2.87805 9.00001L9.95005 1.92901L8.53505 0.515015Z" fill="white"/>
+    </symbol>
+
+    <symbol id="barometer" viewBox="0 0 24 24">
+        <circle cx="12" cy="13" r="10.8" fill="#494F68"/>
+        <path fill="#fff" d="M14.166 14.105a2.437 2.437 0 00-3.282-3.282L8.281 8.22A.75.75 0 107.22 9.28l2.603 2.603a2.437 2.437 0 003.282 3.282l.614.614a.75.75 0 101.061-1.06l-.614-.615zm-2.171-.172a.937.937 0 11-.001-1.875.937.937 0 010 1.875z"/>
+    </symbol>
+
     <symbol id="logo" viewBox="0 0 87 87">
         <circle cx="28.317" cy="26.77" r="5.342" fill="url(#paint0_radial)"/>
         <g filter="url(#filter0_f)" opacity=".67">
@@ -6524,11 +6537,7 @@ m1248 -12 c7 -7 12 -20 12 -29 0 -9 -7 -22 -15 -29 -8 -7 -25 -10 -39 -6 -13
             <stop stop-color="#254659"/>
             <stop offset="1" stop-color="#023553"/>
             </linearGradient>
+        </defs>
     </symbol>
-
-    <symbol id="vector" viewBox="0 0 2 26">
-        <path d="M1 1V25" stroke="#494F68" stroke-width="2" stroke-linecap="round"/> 
-    </symbol>
-
   </defs>
 </svg>

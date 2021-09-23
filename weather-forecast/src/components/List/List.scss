@@ -1,0 +1,41 @@
+.List {
+    background: #161b30;
+}
+
+.List-Body {
+    margin-bottom: 50px;
+}
+
+.List-item {
+    background-color: rgba(41, 46, 68, .6);     
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.List-item-link {
+    text-decoration: none;
+}
+
+.List-item-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.List-item-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+}
+
+.List-item-temp {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+}

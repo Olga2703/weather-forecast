@@ -3,42 +3,13 @@ body {
   }
 
 .Home {
-    display: flex;
-    flex-direction: column;
-    background: #161b30;
-    padding: 17px 20px 0px 20px;    
-}
-
-.Home-Body {
-    flex: 1;
-    max-width: 500px;
-    min-width: 320px;    
-}
-
-.SectionNavigation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
+    background: #161b30;   
 }
 
 .SectionNavigation-Item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #292e44;
+    background: rgba(41, 46, 68, .6); ;
     border-radius: 6px;
-    margin-right: 19px;
-    margin-bottom: 20px;
     text-decoration: none;
-}
-
-.Section {
-    padding: 23px 25px 16px;
-    position: relative;
 }
 
 .Section-Title {
@@ -61,7 +32,7 @@ body {
     margin-bottom: -8px;
 }
 
-.Icon {
+.Icon-Home-weather {
     width: 88px;
     height: 88px;
     margin-bottom: 0;
